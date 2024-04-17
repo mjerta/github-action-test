@@ -25,3 +25,4 @@ jobs:
         script: |
           cd /var/www/projects/github-action-test/
           git pull github main
+          echo "A git pull has been executed!"
